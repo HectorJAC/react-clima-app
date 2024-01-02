@@ -13,7 +13,7 @@ const Formulario = () => {
             setAlerta("Todos los campos son obligatorios");
             return;
         }
-
+        setAlerta("");
         consultarClima(busqueda);
     };
 
@@ -48,7 +48,7 @@ const Formulario = () => {
                     <option value="CR">Costa Rica</option>
                     <option value="ES">España</option>
                     <option value="PE">Peru</option>
-                    <option value="RD">Republica Dominicana</option>
+                    <option value="DO">Republica Dominicana</option>
                 </select>
             </div>
 
